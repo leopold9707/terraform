@@ -1,6 +1,6 @@
 resource "openstack_compute_keypair_v2" "my-cloud-key" {
   name       = "test_key_name"
-  public_key = "ssh-rsa AAAABi..."  ##FIXME
+  public_key = ~/.ssh/id_rsa.pub  ##FIXME
 }
 
 resource "openstack_compute_instance_v2" "test" {
