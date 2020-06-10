@@ -1,7 +1,7 @@
 *openrc.sh
 .terraform
-.tfstate
-.tfstate.backup
+terraform.tfstate
+terraform.tfstate.backup
 .pem
 
 
